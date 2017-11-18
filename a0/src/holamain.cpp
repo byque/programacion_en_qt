@@ -1,8 +1,15 @@
+#include <QApplication>
+#include <QLabel>
 #include <holaheader.h>
 
-int main() {
+int main(int argc, char *argv[]) {
   // Llamar una función en otro archivo
   miImpresionHolaMake();
 
-  return 0;
+  QApplication a(argc, argv);
+
+  QLabel label("Hello World");
+  label.show();
+
+  return a.exec();
 }
