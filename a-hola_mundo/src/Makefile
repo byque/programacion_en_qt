@@ -10,7 +10,7 @@ QTLIBS_ROOT = /usr/share/qt4/include
 QTLIBS      = $(QTLIBS_ROOT)/QtGui
 
 # Aquí añadimos todos los archivos *.cpp que se quieren compilar
-CPPSRCS  = holafuncion.cpp holamain.cpp
+CPPSRCS  = main.cpp
 
 # Aquí añadimos las rutas a los directorios include
 IDIR     = ../include
