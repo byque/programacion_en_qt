@@ -1,9 +1,9 @@
 ################################################################################
-# Plantilla de Makefile con funciones avanzadas                                #
+# Plantilla de Makefile con funciones avanzadas
 ################################################################################
 
 # Éste es el nombre de los binarios que serán generados
-TARGET   = holabinario
+TARGET   = hola_mundo-qt
 
 # Algunas rutas (por defecto debería funcionar)
 QTLIBS_ROOT = /usr/share/qt4/include
@@ -24,7 +24,7 @@ CPPFLAGS = -g -std=c++11 -Wall
 LDFLAGS  = -g -Wall
 
 ################################################################################
-# No cambiar nada después de esta línea                                        #
+# No cambiar nada después de esta línea
 ################################################################################
 
 BINDIR   = ../bin
